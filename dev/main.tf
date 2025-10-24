@@ -5,6 +5,7 @@ module "dev" {
   null_resource_count = 1
 }
 
+# Fix drift.
 resource "null_resource" "drift" {
   count = 2
 
