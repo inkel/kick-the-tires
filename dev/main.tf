@@ -5,7 +5,6 @@ module "dev" {
   null_resource_count = 1
 }
 
-# Comment to force plan
 resource "null_resource" "drift" {
   count = 2
 
